@@ -17,8 +17,8 @@ return facts
 function iLoveTheBeatles(n) {
 var arr = [];
 do{
-  arr.unshift('I love the Beatles!');
-  n = n++
-}  while(n<15);
+  arr.push('I love the Beatles!');
+  
+}  while(15-arr.length>n);
 return arr
 }
